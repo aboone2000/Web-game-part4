@@ -1,5 +1,6 @@
 const inventory = newInventory()
 const character = newImage('assets/green-character/static.gif')
+move(character).withArrowKeys(100, 250)
 
 function handleDirectionChange(direction){
     if(direction === null){
